@@ -1,14 +1,58 @@
-body{
+body {
+	font-family: 'Bungee Inline', cursive;
+	text-align:center;
+	background-color: #000000;
+	background-attachment: "sky";
+	overflow-x: hidden;
+}
+
+.headingTitle {
+	font-size:70px;
 	color: #0000ff;
-	background-color: yellow;
 }
 
-.remove{
-	display: none;
+/*.thumbnail {
+	height: 600px;
+	width: 75%;	
+}*/
+
+.coolImage {
+	height: 250px;
+	width: 200px;
+	margin:auto;
 }
 
-body .li:hover {
-    visibility: visible;
+canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -9999;
+	height: 1100px;
+
 }
+
+.coolImage:hover {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
 
 
