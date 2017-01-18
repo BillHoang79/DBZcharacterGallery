@@ -1,4 +1,3 @@
-
 //properties of object
 function characterSelect(name, hp, ki, attk, def, image) {
 	this.name  = name;
@@ -12,12 +11,12 @@ function characterSelect(name, hp, ki, attk, def, image) {
 //new objects going into array
 var characterSelectArray = []
 
-	var goku    = new characterSelect('Goku', 200, 30, 25, 30,"img/goku.png")
-	var vegeta  = new characterSelect('Vegeta', 200, 35, 20, 30, "img/vegeta.png")
-	var cell    = new characterSelect('Cell', 200, 40, 40, 20, "img/cell.png")
-	var piccolo = new characterSelect('Piccolo', 200, 25, 25, 40, "img/piccolo.png")
-	var hit     = new characterSelect('Hit', 200, 20, 40, 40, "img/hit.png")
-	var frieza  = new characterSelect('Frieza', 200, 50, 15, 25, "img/frieza.png")
+	var goku    = new characterSelect('Goku', 200, 30, 25, 30,"http://vignette2.wikia.nocookie.net/fictional-battle-omniverse/images/8/8b/Goku_Dragon_Ball_Z.png/revision/latest?cb=20150508010447")
+	var vegeta  = new characterSelect('Vegeta', 200, 35, 20, 30, "http://vignette1.wikia.nocookie.net/vsbattles/images/a/a9/Vegeta.png/revision/latest?cb=20151225064607")
+	var cell    = new characterSelect('Cell', 200, 40, 40, 20, "https://lh5.googleusercontent.com/-gYUeDqWEhJ8/U6BoMuqurCI/AAAAAAAAAKE/gJeeugX99W0/w900-h2577/cell___perfect_cell_by_maffo1989-d41e9aj.png")
+	var piccolo = new characterSelect('Piccolo', 200, 25, 25, 40, "http://img00.deviantart.net/ab3f/i/2015/230/a/4/piccolo_by_rayzorblade189-d965t1g.png")
+	var hit     = new characterSelect('Hit', 200, 20, 40, 40, "http://img03.deviantart.net/79ae/i/2016/101/a/0/hit_5_dbs_by_saodvd-d9ykjd9.png")
+	var frieza  = new characterSelect('Frieza', 200, 50, 15, 25, "http://img09.deviantart.net/c5f9/i/2014/197/7/9/frieza_by_dark_crawler-d7qvmil.png")
 
 //adds the new objects into array
 characterSelectArray.push(goku, vegeta, cell, piccolo, hit, frieza)

@@ -4,6 +4,12 @@ body {
 	background-color: #000000;
 	background-attachment: "sky";
 	overflow-x: hidden;
+	/* animation for BG */
+	background: linear-gradient(270deg, #0a1c17, #ea9a14, #1448ea);
+	background-size: 600% 600%;
+    -indexwebkit-animation: DBZ 4s ease infinite;
+    -moz-animation: DBZ 4s ease infinite;
+    animation: DBZ 4s ease infinite;
 }
 
 .headingTitle {
@@ -17,8 +23,8 @@ body {
 }*/
 
 .coolImage {
-	height: 250px;
-	width: 200px;
+	height: 500px !important;
+	width: 200px !important;
 	margin:auto;
 }
 
@@ -51,6 +57,24 @@ canvas {
 	100% {
 		opacity: 1;
 	}
+}
+
+@-webkit-keyframes DBZ {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-moz-keyframes DBZ {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes DBZ { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
 

@@ -1,4 +1,6 @@
-window.onload = function() {
+/* ADDS FALLING DRAGON BALLS, BUT SLOWS DOWN PAGE ALOT SO I WENT WITH A DIFFERENT OPTION */
+
+/*window.onload = function() {
 
 	//get the canvas and context and store in vars
 	var canvas = document.getElementById("sky")
@@ -60,4 +62,4 @@ window.onload = function() {
 
 	setInterval(drawFlakes, 25)
 
-}
+}*/
